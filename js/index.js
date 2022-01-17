@@ -38,6 +38,5 @@ function onmouseupa(){
 function onmousedown1(){
     alert( artPieces[4].getDescription() )
 
-
 }
 

@@ -20,13 +20,11 @@ let piece3 = new Pieces(3,"Una Familia","img/lafamilia.jpg","es el retrato de la
 let piece4 = new Pieces(4,"Primera Dama","img/primeradama.jpg","El tema de esta obra es el retrato de la primera dama. En el primer plano aparece esta sentada en un caballo. Está encima de él porque así demuestra que es ella la que manda, la que está por encima de nosotros. También, demuestra su superioridad ya que tiene como una especie de palo en la mano.", 1989);
 let piece5 = new Pieces(5,"La playa","img/laplaya1.jfif","La pintura tiene un fondo sutil y su foco está en el centro. La pintura se ha fijado en la playa, que se representa por la arena, el mar y el cielo azul. En la arena en el centro de la pintura son tres figuras rotundas. Una mujer está acostada de lado, con un libro al lado de ella.", 1998);
 
-this.pieces.push(piece1);
-this.pieces.push(piece2);  
-this.pieces.push(piece3); 
-this.pieces.push(piece4); 
-this.pieces.push(piece5);  
-
-
+    this.pieces.push(piece1);
+    this.pieces.push(piece2);  
+    this.pieces.push(piece3); 
+    this.pieces.push(piece4); 
+    this.pieces.push(piece5);  
 
 }
 
