@@ -18,4 +18,26 @@ document.querySelector('.firstlady').src = artPieces[3].getRouteimage();
 document.querySelector('.thebeach').src = artPieces[4].getRouteimage();
 
 
+//description
+function showInfoByClickButton(){
+    alert( artPieces[0].getDescription() )
+};
+
+function showInfoDoubleClick(){
+    document.querySelector('.pdbclick').innerHTML = artPieces[1].getDescription();
+}
+
+function mouseover(){
+    document.querySelector('.overclick').innerHTML = artPieces[2].getDescription();
+
+}
+function onmouseupa(){
+    document.querySelector('.plady').innerHTML = artPieces[3].getDescription();
+}
+
+function onmousedown1(){
+    alert( artPieces[4].getDescription() )
+
+
+}
 

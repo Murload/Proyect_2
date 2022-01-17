@@ -26,19 +26,19 @@
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Monalisa</a>
+                <a class="nav-link" href="#piece1">Monalisa</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pareja</a>
+                <a class="nav-link" href="#piece2">Pareja</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Una Familia</a>
+                <a class="nav-link" href="#piece3">Una Familia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Primera Dama</a>
+                <a class="nav-link" href="#piece4">Primera Dama</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">La playa</a>
+                <a class="nav-link" href="#piece5">La playa</a>
               </li>
             </ul>
           </div>
@@ -60,7 +60,8 @@
 
 
 
-    <section >
+    <section id="piece1">
+      <br><br>
       <div class="container_piece1">
       <h1 class="title_piece1"></h1>
       <div class="text-center">
@@ -71,16 +72,17 @@
       <!-- <img src="/img/monalisa.jpg" alt="monalisa_botero"> -->
         <br>
       <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-secondary" type="button">Descripción de Pieza</button>
+        <button class="btn btn-secondary" type="button" onclick="showInfoByClickButton()">Descripción de Pieza (Dar click)</button>
       </div>
       <!-- <p>Dale click </p> -->
     </div>
-    
+  </section>
     
     
     <!-- Section_second -->
-    </section>
-    <section> 
+    
+    <section id="piece2"> 
+      <br><br>
       <h1 class="title_piece2"></h1>
       <div class="text-center">
         <img class="couple_route" alt="parejabailando_botero">
@@ -89,22 +91,28 @@
       <br>
 
       <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-secondary" type="button">Descripción de Pieza</button>
+        <p class="pdbclick"></p>
+        
+        <button class="btn btn-secondary" type="button" ondblclick="showInfoDoubleClick()">Descripción de Pieza (Dar doble Click)</button>
+        
       </div>
-       
+
     </section> 
 
     <!-- section thirtd -->
 
 
-    <section>
+    <section id="piece3">
+      <br><br>
       <h1 class="title_piece3"></h1>
       <div class="text-center">
       <img class="family_route" alt="familia_botero">
     </div>
     <br>
       <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-secondary" type="button" >Descripción de Pieza</button>
+        <p class="overclick"></p>
+        <button class="btn btn-secondary" type="button" onmouseover="mouseover()">Descripción de Pieza (Poner mouse encima)</button>
+
         
       </div>
     
@@ -112,35 +120,30 @@
     
     <!-- section fourth -->
     
-    <section>
+    <section id="piece4">
+      <br><br>
       <h1 class="title_piece4"></h1>
       <div class="text-center">    
         <img class="firstlady" alt="primeradama_botero">
       </div>
       <br>
       <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-secondary" type="button" >Descripción de Pieza</button>
+        <p class="plady"></p>
+        <button class="btn btn-secondary" type="button" onkeypress="onmouseupa()">Descripción de Pieza (Dar click y Enter)</button>
         
       </div>
     </section>
     
-
-
-
-
-    <section>
-
-
-
-
-
+    <section id="piece5">
+      <br><br>
       <h1 class="title_piece5"></h1>
       <div class="text-center">
       <img class="thebeach" alt="laplaya_botero" >
       </div>
       <br>
       <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-secondary" type="button" >Descripción de Pieza</button>
+        <p class="pplaya"></p>
+        <button class="btn btn-secondary" type="button" onmousedown="onmousedown1()" >Descripción de Pieza (Usar cualquiera de los dos clicks)</button>
         
       </div>
     </section>

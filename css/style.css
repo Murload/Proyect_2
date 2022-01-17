@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 body{
     background-color: #FFFAE3;
 
@@ -11,8 +10,7 @@ h1{
 
 .navbar{
     position: fixed; 
-     width: 100%;
-     
+    width: 100%;
 }
 
 .introduction-museum{
@@ -21,7 +19,7 @@ h1{
 
 }
 .introduction-museum p{
-    /* font-family: 'Lato', sans-serif;     */
+    /* font-family: 'Lato', sans-serif;*/
     font-family: 'Roboto', sans-serif; 
     font-size: 30px;
 
@@ -51,7 +49,5 @@ section{
 }
 section img{
 
-    width: 400px;
-
-
+    width: 300px;
 }
